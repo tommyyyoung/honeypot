@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nebulus Security</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='landingStyle.css') }}">
+</head>
+<body>
+
+<header class="site-header">
+        <div class="header-left">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="Nebulus Security Logo" class="header-logo">
+        </div>
+
+        <nav class="header-nav">
+            <div class = "navItem">
+                <a href="#">Platforms</a>
+                <div class = "dropdown">
+                    <a href="#">Cloud9</a>
+                    <a href="#">Faucet</a>
+                    <a href="#">Quilt</a>
+                </div>
+            </div>
+            <div class = "navItem">
+                <a href="#">Services</a>
+                <div class = "dropdown">
+                    <a href="#">Cloud Security Assessment</a>
+                    <a href="#">Attack Surface Management</a>
+                    <a href="#">Vulnerability Assessment</a>
+                    <a href="#">Agentic Incident Response</a>
+                    <a href="#">Physical Security</a>
+                </div>
+            </div>
+            <div class = "navItem">
+                <a href="#">Solutions</a>
+                <div class = "dropdown">
+                    <a href="#">Hyena</a>
+                    <a href="#">Worm</a>
+                    <a href="#">Orca</a>
+                    <a href="#">Vulture</a>
+                </div>
+            </div>
+            <div class = "navItem">
+                <a href="#">Company</a>
+                <div class = "dropdown">
+                    <a href="#">Our Story</a>
+                    <a href="#">Meet The Team</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Media Coverage</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="header-right">
+            <nav class="header-nav">
+                <div class = "navItem">
+                    <a href="#">Contact Us</a>
+                </div>
+            </nav>
+            <a href="{{ url_for('login') }}" class="login-btn">
+                Customer Portal
+            </a>
+        </div>
+    </header>
+<main>
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Welcome to Nebulus Security</h1>
+            <p>Your trusted partner in cybersecurity solutions.</p>
+            <a href="#" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <section class="features-section">
+        <h2>Our Services</h2>
+        <div class="features-grid">
+            <div class="feature-item">
+                <h3>Cloud Security Assessment</h3>
+                <p>Comprehensive evaluations to secure your cloud infrastructure.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Attack Surface Management</h3>
+                <p>Identify and mitigate vulnerabilities across your digital footprint.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Vulnerability Assessment</h3>
+                <p>Proactive identification of security weaknesses in your systems.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Agentic Incident Response</h3>
+                <p>Rapid and effective response to security incidents.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

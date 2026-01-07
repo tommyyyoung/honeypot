@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='loginStyle.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='landingStyle.css') }}">
+</head>
+<body>
+    <canvas id="particleCanvas"></canvas>
+
+    <header class="site-header">
+        <div class="header-left">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="Nebulus Security Logo" class="header-logo">
+        </div>
+
+        <nav class="header-nav">
+            <div class = "navItem">
+                <a href="#">Platforms</a>
+                <div class = "dropdown">
+                    <a href="#">Cloud9</a>
+                    <a href="#">Faucet</a>
+                    <a href="#">Quilt</a>
+                </div>
+            </div>
+            <div class = "navItem">
+                <a href="#">Services</a>
+                <div class = "dropdown">
+                    <a href="#">Cloud Security Assessment</a>
+                    <a href="#">Attack Surface Management</a>
+                    <a href="#">Vulnerability Assessment</a>
+                    <a href="#">Agentic Incident Response</a>
+                    <a href="#">Physical Security</a>
+                </div>
+            </div>
+            <div class = "navItem">
+                <a href="#">Solutions</a>
+                <div class = "dropdown">
+                    <a href="#">Hyena</a>
+                    <a href="#">Worm</a>
+                    <a href="#">Orca</a>
+                    <a href="#">Vulture</a>
+                </div>
+            </div>
+            <div class = "navItem">
+                <a href="#">Company</a>
+                <div class = "dropdown">
+                    <a href="#">Our Story</a>
+                    <a href="#">Meet The Team</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Media Coverage</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="header-right">
+            <nav class="header-nav">
+                <div class = "navItem">
+                    <a href="#">Contact Us</a>
+                </div>
+            </nav>
+            <a href="{{ url_for('login') }}" class="login-btn">
+                Customer Portal
+            </a>
+        </div>
+    </header>
+    <div class="ui-layer">
+        <div class="title">Login</div>
+    <div class="login-card">
+        <form action="/nebulusAdmin-login" method="post">
+        <label>Username</label>
+        <input type="text" name="username" required>
+
+        <label>Password</label>
+        <input type="password" name="password" required>
+
+        <button type="submit">Login</button>
+        </form>
+    </div>
+    </div>
+    <script src="{{ url_for('static', filename='particles.js') }}"></script>
+</body>
+</html>

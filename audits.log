@@ -1,0 +1,5 @@
+Client ('127.0.0.1', 50938) attempted to connect with Username: admin, Password: pass
+Client ('127.0.0.1', 51034) attempted to connect with Username: admin, Password: pass
+Client ('127.0.0.1', 51234) attempted to connect with Username: admin, Password: pass
+2025-12-29 19:10:16,162 Successful login attempt from IP: 127.0.0.1
+2025-12-29 19:11:13,430 Successful login attempt from IP: 127.0.0.1

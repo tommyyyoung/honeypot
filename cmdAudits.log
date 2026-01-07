@@ -1,0 +1,42 @@
+IP=('127.0.0.1', 56897) CMD="ls" LEN=2
+IP=('127.0.0.1', 56897) CMD="cd admin" LEN=8
+IP=('127.0.0.1', 56897) CMD="ls" LEN=2
+IP=('127.0.0.1', 56897) CMD="cat TODO.txt" LEN=12
+IP=('127.0.0.1', 56897) CMD="cat maintenence.sh" LEN=18
+('127.0.0.1', 63746), admin, pass
+('127.0.0.1', 65351), admin, pass
+('127.0.0.1', 65467), admin, pass
+('127.0.0.1', 65493), admin, pass
+('127.0.0.1', 49222), admin, pass
+IP=('127.0.0.1', 49222) CMD="b'ls\r'" LEN=3
+('127.0.0.1', 50872), admin, pass
+IP=('127.0.0.1', 50872) CMD="b'cd\r'" LEN=3
+IP=('127.0.0.1', 50872) CMD="b'ls\r'" LEN=3
+IP=('127.0.0.1', 50872) CMD="b't\r'" LEN=2
+IP=('127.0.0.1', 50872) CMD="b'exit\r'" LEN=5
+('127.0.0.1', 50938), admin, pass
+IP=('127.0.0.1', 50938) CMD="ls" LEN=2
+IP=('127.0.0.1', 50938) CMD="cd etc" LEN=6
+('127.0.0.1', 51034), admin, pass
+IP=('127.0.0.1', 51034) CMD="ls" LEN=2
+IP=('127.0.0.1', 51034) CMD="cd etc" LEN=6
+('127.0.0.1', 51234), admin, pass
+IP=('127.0.0.1', 51234) CMD="ls" LEN=2
+IP=('127.0.0.1', 51234) CMD="ls -a" LEN=5
+IP=('127.0.0.1', 51234) CMD="ls b" LEN=4
+IP=('127.0.0.1', 51234) CMD="ls gay fag" LEN=10
+IP=('127.0.0.1', 51234) CMD="cd home" LEN=7
+IP=('127.0.0.1', 51234) CMD="ls" LEN=2
+IP=('127.0.0.1', 51234) CMD="cd admin" LEN=8
+IP=('127.0.0.1', 51234) CMD="ls" LEN=2
+IP=('127.0.0.1', 51234) CMD="ls" LEN=2
+IP=('127.0.0.1', 51234) CMD="cat TODO.txt" LEN=12
+IP=('127.0.0.1', 51234) CMD="cat maintenance.sh" LEN=18
+IP=('127.0.0.1', 51234) CMD="cat maintenance.sh" LEN=18
+IP=('127.0.0.1', 51234) CMD="cd" LEN=2
+IP=('127.0.0.1', 51234) CMD="cd home" LEN=7
+IP=('127.0.0.1', 51234) CMD="cd ." LEN=4
+IP=('127.0.0.1', 51234) CMD="." LEN=1
+IP=('127.0.0.1', 51234) CMD="cd .." LEN=5
+IP=('127.0.0.1', 51234) CMD="cd .." LEN=5
+IP=('127.0.0.1', 51234) CMD="cd .." LEN=5
